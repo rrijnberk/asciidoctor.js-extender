@@ -1,0 +1,12 @@
+= Portbase Frontend architecture
+Richard Rijnberk <r.rijnberk@portbase.com>
+v{version}
+:toc:
+
+This is a test document.
+
+include::test/chapters/chapter.1.adoc[]
+
+include::test/chapters/chapter.2.md[]
+
+include::test/styles/_variables.scss[]

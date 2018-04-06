@@ -1,0 +1,27 @@
+/*
+== Variables
+This file contains the base variables for the application.
+ */
+
+/**
+=== Text
+These are the variables pertaining to text colors.
+ */
+
+// The base color for all text
+$color-text: rgba(0, 0, 0, 1);
+
+// The color used for warning text
+$color-text--warning: rgba(255, 150, 60, 1);
+
+// The color used for error text
+$color-text--error: rgba(255, 0, 0, 1);
+
+
+/**
+ * === Borders
+ * These are the variables pertaining to border colors.
+ */
+
+// The default border color
+$color-border: rgba(0, 0, 0, 0.6);

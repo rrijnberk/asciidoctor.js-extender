@@ -1,8 +1,8 @@
 # asciidoctor.js-extender
 The asciidoctor.js extender is a library for extending standard asciidoc with custom
 built plugins. It aims to be a platform which eases extension creation and inclusion
-for asciidoctor.js. If you wish to [contribute](#contributing) or [request a feature](#requesting-new-features) please 
-follow the guides at the end of this document.
+for asciidoctor.js. If you wish to [submit a bug](#registering-issue), [contribute](#contributing) or 
+[request a feature](#requesting-new-features) please follow the guides at the end of this document.
 
 ##installation
 To include the library in your project run the following command:
@@ -27,7 +27,7 @@ npm install -S @asciidoctor-extender/asciidoctor.js-extender
 **Base attributes**
 
 | Name | Description |
-|:---- |:----------- |
+|:---- |:------------|
 | source | The source file for the documentation |
 | target | The target file name (without extension) to write |
 | extensions | The root for all extensions |
@@ -78,11 +78,16 @@ module.exports = markdownInclusionExtension;
 This include extension will replace all include declarations referring to *.md files to the string value "This is where 
 your markdown should be!". 
 
+# Registering issue
+Should something be awry please feel free to register a bug by creating an issue labeled "bug" with a clear description 
+of what fails, what is expected and steps to reproduce the error.
+
+
 # Contributing
 To contribute to this library you can fork the library, implement the feature and create a pull request. Then create an 
-issue titled "Contribution: <Feature name>" with a description of the feature and a reference to the pull request.
+issue labeled "Contribution" with a clear description of the feature and a reference to the pull request.
 
 # Requesting new features
-In order to request a new feature please open a new issue titled "Feature request: <Feature name>" and a description of
+In order to request a new feature please open a new issue labeled "Feature request" and a clear description of
 the functionality that is requested.
 

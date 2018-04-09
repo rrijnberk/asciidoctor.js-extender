@@ -4,5 +4,7 @@
       "adoc-ext-include-markdown",
       "adoc-ext-include-scss"
     ]
-  }
+  },
+  "source": "test/test.adoc",
+  "target": "target/test"
 }

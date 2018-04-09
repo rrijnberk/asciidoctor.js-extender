@@ -1,0 +1,8 @@
+{
+  "extensions": {
+    "include": [
+      "adoc-ext-include-markdown",
+      "adoc-ext-include-scss"
+    ]
+  }
+}

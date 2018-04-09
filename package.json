@@ -1,17 +1,23 @@
 {
-  "name": "asciidoctor.js-extender",
-  "version": "0.0.1",
+  "name": "@asciidoctor-extender/asciidoctor.js-extender",
+  "version": "0.1.0-BETA",
   "description": "An extension registry and handler for asciidoctor.js.",
+  "author": "Richard Rijnberk <r.rijnberk@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "AsciiDoctor",
-    "Markdown",
+    "AsciiDoctor.js",
     "Documenting",
-    "NodeJS"
+    "Extending",
+    "Extension",
+    "NodeJS",
+    "Plugin"
   ],
   "dependencies": {
     "asciidoctor.js": "^1.5.6-rc.1",
     "fs-extra": "^5.0.0"
   },
-  "author": "R.Rijnber",
-  "license": "MIT"
+  "devDependencies": {
+    "@asciidoctor-extender/adoc-ext-include-scss": "^0.1.0-BETA"
+  }
 }

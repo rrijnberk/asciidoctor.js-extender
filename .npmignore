@@ -1,0 +1,12 @@
+.idea/
+*.iml
+
+node_modules/
+test/
+target/
+
+*.tgz
+package/
+package-lock.json
+
+asciidoc.config.json

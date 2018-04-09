@@ -22,9 +22,5 @@
   "dependencies": {
     "asciidoctor.js": "^1.5.6-rc.1",
     "fs-extra": "^5.0.0"
-  },
-  "devDependencies": {
-    "@asciidoctor-extender/adoc-ext-include-markdown": "^0.1.0-BETA",
-    "@asciidoctor-extender/adoc-ext-include-scss": "^0.1.0-BETA"
   }
 }

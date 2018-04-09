@@ -1,8 +1,8 @@
 {
   "extensions": {
     "include": [
-      "adoc-ext-include-markdown",
-      "adoc-ext-include-scss"
+      "@asciidoctor-extender/adoc-ext-include-markdown",
+      "@asciidoctor-extender/adoc-ext-include-scss"
     ]
   },
   "source": "test/test.adoc",

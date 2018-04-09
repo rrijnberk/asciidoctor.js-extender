@@ -19,9 +19,9 @@ const filePath = path.resolve(asciiDocConfig.source);
 
 asciidoctor.Extensions.register(function () {
     asciiDocConfig.extensions.include.map(extension => {
-        const pluginPath =`./node_modules/@asciidoctor-extender/${extension}`,
+        const pluginPath =`./node_modules/${extension}`,
             mainEntry = require(path.resolve(`${pluginPath}/package.json`)).main,
-            pluginEntry = `./node_modules/@asciidoctor-extender/${extension}/${mainEntry || '/plugin/index.ts'}`;
+            pluginEntry = `./node_modules/${extension}/${mainEntry || '/plugin/index.ts'}`;
         this.includeProcessor(require(path.resolve(pluginEntry)));
     });
 });

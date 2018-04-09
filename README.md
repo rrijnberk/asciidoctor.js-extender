@@ -1,7 +1,9 @@
 # asciidoctor.js-extender
 The asciidoctor.js extender is a library for extending standard asciidoc with custom
 built plugins. It aims to be a platform which eases extension creation and inclusion
-for asciidoctor.js. If you wish to [submit a bug](#registering-issues), [contribute](#contributing) or 
+for asciidoctor.js. 
+
+If you wish to [submit a bug](#registering-issues), [contribute](#contributing) or 
 [request a feature](#requesting-new-features) please follow the guides at the end of this document.
 
 ##installation
@@ -15,8 +17,8 @@ npm install -S @asciidoctor-extender/asciidoctor.js-extender
 {
   "extensions": {
     "include": [
-      "adoc-ext-include-markdown",
-      "adoc-ext-include-scss"
+      "@asciidoctor-extender/adoc-ext-include-markdown",
+      "@asciidoctor-extender/adoc-ext-include-scss"
     ]
   },
   "source": "test/test.adoc",

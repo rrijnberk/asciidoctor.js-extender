@@ -22,9 +22,6 @@ asciidoctor.Extensions.register(function () {
         const pluginPath =`./node_modules/@asciidoctor-extender/${extension}`,
             mainEntry = require(path.resolve(`${pluginPath}/package.json`)).main,
             pluginEntry = `./node_modules/@asciidoctor-extender/${extension}/${mainEntry || '/plugin/index.ts'}`;
-
-
-
         this.includeProcessor(require(path.resolve(pluginEntry)));
     });
 });

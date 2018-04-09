@@ -1,7 +1,7 @@
 # asciidoctor.js-extender
 The asciidoctor.js extender is a library for extending standard asciidoc with custom
 built plugins. It aims to be a platform which eases extension creation and inclusion
-for asciidoctor.js. If you wish to [submit a bug](#registering-issue), [contribute](#contributing) or 
+for asciidoctor.js. If you wish to [submit a bug](#registering-issues), [contribute](#contributing) or 
 [request a feature](#requesting-new-features) please follow the guides at the end of this document.
 
 ##installation
@@ -78,7 +78,7 @@ module.exports = markdownInclusionExtension;
 This include extension will replace all include declarations referring to *.md files to the string value "This is where 
 your markdown should be!". 
 
-# Registering issue
+# Registering issues
 Should something be awry please feel free to register a bug by creating an issue labeled "bug" with a clear description 
 of what fails, what is expected and steps to reproduce the error.
 
